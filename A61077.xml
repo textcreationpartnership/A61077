@@ -1,0 +1,823 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ton sesosmenon umnon, or, The song of the delevered set forth in a sermon preached in the Colledge of Bristoll the 24. of October : being the day set apart for publick thanksgiving unto God for the memorable victory obtained over the Scottish army at Worcester / by Thomas Speed.</title>
+            <author>Speed, Thomas.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1651</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 61 KB of XML-encoded text transcribed from 21 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A61077</idno>
+            <idno type="STC">Wing S4907</idno>
+            <idno type="STC">ESTC R24162</idno>
+            <idno type="EEBO-CITATION">07985109</idno>
+            <idno type="OCLC">ocm 07985109</idno>
+            <idno type="VID">40742</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A61077)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 40742)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1213:16)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Ton sesosmenon umnon, or, The song of the delevered set forth in a sermon preached in the Colledge of Bristoll the 24. of October : being the day set apart for publick thanksgiving unto God for the memorable victory obtained over the Scottish army at Worcester / by Thomas Speed.</title>
+                  <author>Speed, Thomas.</author>
+               </titleStmt>
+               <extent>[6], 31 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by R.W. for Giles Calvert,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1651.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  O.T. --  Psalms L, 15 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-10</date>
+            <label>Louis Goldberg</label>Sampled and proofread</change>
+         <change>
+            <date>2011-10</date>
+            <label>Louis Goldberg</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:40742:1"/>
+            <pb facs="tcp:40742:1" rendition="simple:additions"/>
+            <p>ΤΩΝ ΣΕΣΩΣΜΕΝΩΝ ΥΜΝΟΣ OR THE Song of the Delivered.</p>
+            <p>Set forth in a SERMON Preached in the Colledge of <hi>Briſtoll</hi> the 24. of <hi>October,</hi> being the Day ſet apart for <hi>Publick Thankſgiving</hi> unto GOD, for the Memorable VICTORY Obtained over the SCOTTISH ARMY at <hi>WORCESTER.</hi>
+            </p>
+            <p>By <hi>Thomas Speed.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="5 letters">
+                  <desc>•••••</desc>
+               </gap>ed by <hi>R.W.</hi> for <hi>Giles Calvert,</hi> and are to be ſold at the Sign of the Black-ſpread-Eagle at the Weſt end of <hi>Pauls,</hi> 1651.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:40742:2" rendition="simple:additions"/>
+            <pb facs="tcp:40742:2"/>
+            <head>TO THE Right VVorſhipfull <hi>JOSEPH JACKSON</hi> Mayor, the <hi>Aldermen,</hi> and the reſt of the <hi>Corporation</hi> of the City of <hi>Briſtoll.</hi>
+            </head>
+            <opener>
+               <salute>Right Worſhipful, and much reſpected,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">T</seg>Here are three noble acts of the ſoul towards God, by which Chriſtians do properly begin to live the life of <hi>Glory</hi> in the Kingdom of <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> The firſt is by a firm dependance on
+<pb facs="tcp:40742:3"/>him as the fountain of all their good. The ſe<g ref="char:EOLhyphen"/>cond, by a chearfull complyance with his will in the product of all his purpoſes. The third, by breathing out continual Hallelujahs, Songs of praiſe and honour to his glorious Name, as the head-ſpring of all their Salvations. By the firſt (in the day of their ſtraits and darkneſs) they are lodg'd in the arms of ſafety. By the ſecond, they do (without reluctancy) ſet their ſeal to every piece of Divine pleaſure mani<g ref="char:EOLhyphen"/>feſted as glorious. By the third, they do ſo<g ref="char:EOLhyphen"/>lace their enlarged Souls in the boſom of their Deliverer. Waiting upon God by dependance and ſubmiſsion (in the midſt of devouring flames) hath been the buſineſs of his poor ſighing people in this bleeding Nation for theſe ten years paſt; but now behold (through his rich grace) they are come forth glad with the white robe of Salvation, having their hearts tuned by the Spirit of the moſt High, to ſing the ſongs of the Redeemed, by giving <hi>glory, and hon<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+                  <pb facs="tcp:40742:3"/>and thanks to him that ſitteth on the Throne, who liveth for ever and ever.</hi> In which glorious work (the firſt fruits of Eter<g ref="char:EOLhyphen"/>nity) that you alſo might have your hearts ele<g ref="char:EOLhyphen"/>vated to bear a part, is my ſingle aym in the enſuing Diſcourſe. You are not all ignorant whoſe deſire brought it to the <hi>Pulpit;</hi> neither is it leſs known to ſome of you whoſe requeſt led it to the <hi>Preſs.</hi> I would not that my dedicating it to you ſhould be interpreted my (unworthy) courting your favour, thereby to procure its Patronage; but my reall and ſincere intend<g ref="char:EOLhyphen"/>ing your profit; which if it ſhall effect, I ſhall eſteem my ſelf to have obtain'd my End. The ſerious breathings of my heart, are, that that flying ſhadow, that floating foundation of true reſt, that empty Idoll of the blinded world, cal<g ref="char:EOLhyphen"/>led <hi>Popularity,</hi> might in none of my atchieve<g ref="char:EOLhyphen"/>ments bribe, either my judgement or affections <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o any thing irregular or unworthy; much leſs <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> it ſhould be to me in the place of the li<g ref="char:EOLhyphen"/>ving
+<pb facs="tcp:40742:4"/>God, whilſt I intermedle in things Di<g ref="char:EOLhyphen"/>vine; in which we always do come ſo far ſhort of the true end, as (in our ayms and intenti<g ref="char:EOLhyphen"/>ons we fall beneath the higheſt glory: I have therefore ſtudied how I might preſent you with this feeble Birth of the travel of my poor thoughts, rather in the plain dreſs of naked Truth, then in the gawdy garb of Oratory; humbly intreating you not to entertain it with the embraces of your favour becauſe its mine, nor raſhly explode it becauſe its not anothers: But (wiſely walking betwixt thoſe two rocks of <hi>Credulity</hi> and <hi>Prejudice</hi>) having well weigh<g ref="char:EOLhyphen"/>ed the whole in a ſound Judgement, ballance your election by the ſtandard of the Sanctuary. The <hi>Zenith</hi> of my ambition (if I know any thing of my ſelf) is, the advancement of the <hi>Kingdom of Chriſt</hi> in your ſouls; that among thoſe many thouſands that at this day make melody in their hearts to God their Re<g ref="char:EOLhyphen"/>deemer, you might not be found to ſtand o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb facs="tcp:40742:4"/>for Cyphers. If you eſteem your ſelves to be (what indeed you are) eminent ſharers in the <hi>Common Deliverance:</hi> Why ſhould you not alſo ſtand, as figures of great ſignificancy, in the number of thoſe that make returns of <hi>Glory?</hi> It pleaſed the Lord in the day of your fears (with the hand of <hi>Grace</hi>) to write down your City in the book of his remembrance, a<g ref="char:EOLhyphen"/>mong ſuch as by the wing of his power and lo<g ref="char:EOLhyphen"/>ving-kindneſs, he would ſave from the teeth of the cruel: from the bottom of my heart do I beg (and, O that <hi>I</hi> might obtain!) that you would make it the great work of your lives (as your thank-offering unto Heaven) to make your City more God's, Chriſts, the Goſpel's, the Common-wealths; that this may be written over all her Gates in indelible Characters, <hi>Lo this is the righteous City which was ſaved by <gap reason="illegible" resp="#PDCC" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>d.</hi> In the glory of this world <hi>I</hi> may (with<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lattery) pronounce it inferiour to none: <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> un-intermitted happineſs in that
+<pb facs="tcp:40742:5"/>glory which is Divine to excell all. May that dark and diſmall Winter never paſs over it, in which it may not ſpring and flouriſh with thoſe glorious fruits of Knowledge, Truth, Righ<g ref="char:EOLhyphen"/>teouſneſs and Peace. And if there be any other Gemm which may adde luſtre to the Crown of its earthly or Spiritual glory, which my pen (unwilling to tranſgreſs its due limits) hath ſpa<g ref="char:EOLhyphen"/>red to mention: Let me beg your belief that that, and much more, is cordially wiſht to it by him, who is</p>
+            <closer>
+               <signed>
+                  <hi>Your Faithfull and moſt humble Servant,</hi> Thomas Speed</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:40742:5"/>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>PSALM 50.15.</hi>
+                  </bibl>
+                  <p>And call upon me in the day of trouble; I will deliver thee, and thou ſhalt glorifie me.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">W</seg>E are this morning met together, to ſpeak well of the Name of the moſt High God, for that which (next to the Re<g ref="char:EOLhyphen"/>demption of loſt man through Chriſt) we may truly call, the greateſt de<g ref="char:EOLhyphen"/>monſtration of grace that ever Heaven made to any of the ſons or daughters of men: for that, which is the joy of all thoſe hearts that wiſh well to <hi>Zion,</hi> and the equal terrour of all its adverſaries: for that, which is the wonder and amazement of all neigh<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ing Nations; and which (through the good<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> God) may prove a happy preamble to the
+<pb n="2" facs="tcp:40742:6"/>eſtabliſhment of Truth and Peace in this Common-wealth.</p>
+            <p>The words which I have read in your ears (my ſmall portion of time allotted me, not permitting me to meddle with the context) do contain in them three parts.</p>
+            <list>
+               <item>1. Firſt, An exhortation to a duty. <hi>Call upon me.</hi> To which is annexed, the circumſtance of time when. <hi>In the day of trouble.</hi>
+               </item>
+               <item>2. Secondly, An engagement of grace. <hi>I will deliver thee.</hi>
+               </item>
+               <item>3. Thirdly, An injunction laid on the delivered, to make returns of praiſe to the Deliverer. <hi>And thou ſhalt glorifie me.</hi>
+               </item>
+            </list>
+            <p>The firſt, preſenteth us with the ſouls of Chriſti<g ref="char:EOLhyphen"/>ans, looking by Faith to their God, in the day of their darkneſs.</p>
+            <p>The ſecond, ſpeaks the gratious readineſs of their God, to ſatisfie the expectations, and comply with the deſires of their ſouls.</p>
+            <p>Upon which followeth the third, which is, the thankfull improvement of their Deliverances, by ſtudying the advancement of the glory of God their Saviour.</p>
+            <p>Of each of theſe diſtinctly: And firſt, in the firſt of theſe three parts, I ſhall begin with the circum<g ref="char:EOLhyphen"/>ſtance of time <hi>(in the day of trouble)</hi> foraſmuch as that doth properly precede the ſouls acting towards God, in the offering up of its prayers and tears: <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> is as the wound, haſtening the <hi>Patient</hi> to the <hi>Ch<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>geon</hi> or as the wrong offered the childe<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> him to pour out his complaints into the <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb n="3" facs="tcp:40742:6"/>father. The burden on the ſhoulder, maketh the per<g ref="char:EOLhyphen"/>ſon ſuſtaining it, to cry out for help. Clouds, and darkneſs, and difficulties, preſſing hard on the ſoul, do (in like manner) prompt it, to look out for ſome one to reſcue it.</p>
+            <p>The<note n="(a)" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> Hebrew word uſed in the Text for <hi>trouble,</hi> is of great ſignificancy. The<note n="(b)" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> root whence it cometh, ſignifieth, to beſiege, or environ with an Ar<g ref="char:EOLhyphen"/>my. Thus it's made uſe of in 1 <hi>Sam.</hi> 23.8. where it's ſaid, that <hi>Saul called all the people together to war, to go down to Keilah, to</hi>
+               <note n="(c)" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> Ad anguſtian<g ref="char:EOLhyphen"/>dum.</note> beſiege <hi>David and his men.</hi> And thence the Scripture uſeth the word in the Text, to expreſs the greateſt ſtraits and exigences to which it pleaſeth God to reduce men in this life. There are two words eſpecially by which it's uſually rendred, which bear great weight with them: And they are, <hi>tribulation,</hi> and <hi>diſtreſs.</hi> The firſt we meet with in <hi>Judg.</hi> 10. where from verſe 7. to the end of 9. we have a narrative of the many black clouds that did then hang over poor <hi>Iſraels</hi> head: In verſe 10. we have them crying unto God: and in ver. 14. God returning this killing anſwer; <hi>Go, and cry unto the Gods which ye have choſen, let them deliver you in the time of your</hi>
+               <note n="(d)" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> tribulation. We finde it rendred by the ſecond: in <hi>Pſal.</hi> 120. 1. <hi>In my</hi>
+               <note n="(e)" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> 
+               <hi>diſtreſs I cried un<g ref="char:EOLhyphen"/>to the Lord.</hi> When <hi>Joſeph,</hi> both by his demeanour, and his words, ſpake roughly to his indigent bre<g ref="char:EOLhyphen"/>thren, <hi>Gen.</hi> 42. They, reflecting upon that day, when <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> the anguiſh of his ſoul</hi> prevailed not againſt their <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>manity: from their bloody premiſes, drew this <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>cluſion, ver. 21. <hi>Therefore is this</hi>
+               <note n="(f)" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> diſtreſs <hi>come</hi>
+            </p>
+            <pb n="4" facs="tcp:40742:7"/>
+            <p>But more particularly: there are two principal in<g ref="char:EOLhyphen"/>gredients that go to the making up of a <hi>day of trouble.</hi>
+            </p>
+            <p n="1">1. The firſt is, God's hedging up the way of his peoples comforts, as it were with thorns. When as, which way ere they caſt their eyes, they meet with nothing but terrours, and diſcouragements.</p>
+            <p>This is often effected by the power, and rage of unreaſonable men. The firſt of which, made it a day of ſtraits and fears to good <hi>Jehoſhaphat;</hi> when as, through a ſenſe of his own impotency to conteſt with the Army that came againſt him, he was put to this ſtand in his Councels, that he knew<note n="(g)" place="margin">2 Chro. 20.12.</note> 
+               <hi>not what to do.</hi> The ſecond, expreſſed in the blaſphemous vo<g ref="char:EOLhyphen"/>mitings of railing <hi>Rabſhakeh,</hi> made tender-ſpirited <hi>He<g ref="char:EOLhyphen"/>zekiah</hi> to ſignifie to <hi>Iſaiah</hi> the Prophet, that God had brought upon him <hi>a</hi>
+               <note n="(h)" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> 
+               <hi>day of trouble and rebuke.</hi> Thus was it a <hi>day af trouble</hi> to purſued <hi>Iſrael</hi> at the <hi>Red-ſea.</hi> Thus alſo did God make it a day of diſtreſs and ſtraits to our Army (ſurrounded with might and malice) at <hi>Dunbar.</hi> When as we are beſet with evils, and the Conduit-pipes of ſecond cauſes which ſhould convey ſuccour to us, ſeem to be quite cut off; then may the <hi>day of trouble</hi> truly be ſaid to have overtaken us. God will ſometimes ſpoil <hi>his</hi> of their beloved enjoyments, and they ſhall not be able to caſt their eye upon that thing in the whole Creation, that may yield them ſupply. When God would make <hi>Iſrael</hi> ſenſible of the depth of his diſtreſs under the Babyloniſh captivity, he ſaith, that the enemy having <hi>laid hold of the <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> none</hi> ſhould be able to <hi>deliver it</hi>
+               <note n="(i)" place="margin">Iſa. 5.29.</note> . And they <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> their deliverance thence, was to themſelves <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> probable (having no means in their eye <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb n="5" facs="tcp:40742:7"/>effect it) that their return ſeemed to be of equal cre<g ref="char:EOLhyphen"/>dit to them, with the phantaſms of dreaming men. When ſoft <hi>Jacob</hi> with his unmartial'd train was to meet his rough-ſpirited brother in the head of an armed company: looking on himſelf as a helpleſs prey to the teeth of the Lyon; he was (as the Text ſaith) <hi>greatly affraid and diſtreſſed.</hi>
+               <note n="(k)" place="margin">Gen. 32 7. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> What made it a day of trouble to many, when the late vagabond Army came into this Nation? Why this, deſtruction ſeemed to be nigh at hand, and help to be afar off.</p>
+            <p n="2">2. The ſecond ingredient is, Gods making dark<g ref="char:EOLhyphen"/>neſs ſo much the pavilion of our ſouls, that, under our preſſures we ſhall not be able to reach the end of the preſent diſpenſation. No affliction is joyous to the fl<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſh; but when as, with that, the cloud is ſo thick, that the ſoul cannot (ſo much as by a probable con<g ref="char:EOLhyphen"/>jecture) reach the end, the ſtrait is thereby much en<g ref="char:EOLhyphen"/>creaſed. Which truth doth hang on this principle; That the view of a <hi>good end,</hi> doth much ſweeten and make facile, all the difficulties that lie in the way to it.</p>
+            <p>So that if the repreſentation of the goodneſs of the end do lighten the burden; then muſt the con<g ref="char:EOLhyphen"/>cealment thereof, needs make it much more bur<g ref="char:EOLhyphen"/>denſom.</p>
+            <p>The ſoul of old <hi>Jacob</hi> was ſore diſtreſſed by the tidings of his beloved-<hi>Joſephs</hi> unfortunate end: but could he have been but aſſured of his ſo glorious a reſurrection to power, and opportunity to ſave him <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d his family from periſhing, it would not have <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> one ſigh from his heart, or a tear from his eye. <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> was it that the hovering of the late enſnared <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ver us, created ſo many troubles, and
+<pb n="6" facs="tcp:40742:8"/>ſhakings in our Spirits? but only, that the end that God had upon them was not ſo clear: And by how much the iſſue was more or leſs foreſeen by the eye of our faith; by ſo much to every heart was it more or leſs a <hi>day of trouble.</hi> We may call the whole time of <hi>Paul's</hi> life (after his converſion) a day of trouble and ſtraits; but yet, his looking to that weight of glory which was to come, made all his <hi>affliction</hi> to be (be<g ref="char:EOLhyphen"/>yond expreſsion)<note n="(l)" place="margin">2 Cor. 4.17. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> 
+               <hi>light.</hi> His thorny paſſage was made ſmooth and pleaſant, by having his eye fixed on that glory which lay beyond it.</p>
+            <p>
+               <hi>Object.</hi> But here ſteps in an objection: It is askt, Why ſhould the emphaſis of the exhortation lie on that time, <hi>the day of trouble?</hi> The heart of man is ſufficiently propenſe to flie to God for help in that day; and even they, that will not have him for their Ruler in the time of proſperity; in the day of their diſtreſs would fain have him for their Deliverer. <hi>In their affliction they will ſeek me early</hi>
+               <note n="(m)" place="margin">Hoſ. 5.15</note>
+            </p>
+            <p>The Anſwer to this, will lead me to ſpeak of the duty contained in the firſt part of the Text, viz. <hi>call on me.</hi>
+            </p>
+            <p>
+               <hi>Anſw.</hi> For anſwer therefore I ſay; That the Ex<g ref="char:EOLhyphen"/>hortation (as to the circumſtance of time) is not groundleſs: for that, although moſt men do ſeem to haſten to God, in the day of trouble, in word, and pretence; yet even at that time do moſt mens hearts catch at ſomething beſides him, which they make their ſtay, and their dependance. God made <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> promiſes to <hi>Iſrael</hi> that he would not withdraw <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> preſence from them for their protection and <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> and in the day of their ſtraits God <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb n="7" facs="tcp:40742:8"/>pretence, but their hearts leaned on <hi>Egypt.</hi>
+            </p>
+            <p>We muſt therefore here come to make enquity, what there is wrapt up in the bowels of this expreſ<g ref="char:EOLhyphen"/>ſion? For that it cannot be underſtood ſimply in the Letter; as if a bare verbal calling upon the name of God, were that, which he would honour with accept<g ref="char:EOLhyphen"/>ance, or anſwer with deliverance.</p>
+            <p>There are three ſorts of calling upon God, which do never finde that acceptance with him, ſo as to ob<g ref="char:EOLhyphen"/>tain anſwer.</p>
+            <list>
+               <item>1. Firſt, there is an hypocritical calling upon God: A calling on him with the lips, when as the heart ſtrayeth from him. The Jews were a people eminent for this: None more in lip prayers, and mock-Faſts (to gain the eſteem of being religious) then they. <hi>Job</hi> by an interrogation maketh it poſitive, that ſuch pray<g ref="char:EOLhyphen"/>ers do never reach the ear of God: when as (ſpeak<g ref="char:EOLhyphen"/>ing of the hypocrite) he ſaith.<note n="(n)" place="margin">Job 27.9</note> 
+                  <hi>Will God hear his cry when</hi>
+                  <note n="(o)" place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>
+                  </note> trouble <hi>cometh on him?</hi>
+               </item>
+               <item>2. There is a curſory, ignorant calling upon God, to which is annexed no other reward, then the la<g ref="char:EOLhyphen"/>bour it ſelf. A curſory calling, is ſo to call, as there<g ref="char:EOLhyphen"/>in to reſt: when men pray meerly becauſe they think they muſt: with which is uſually joyn'd a deep igno<g ref="char:EOLhyphen"/>rance; when as men are no way apprehenſive of the nature of that God on whom they call. Such was that calling upon God uſed by thouſands, during the ſign of that ſilly Idol, the Common-prayer Book: <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> as the ſum of their devotion lay no higher, then <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> hearing ſo many prayers read in their ears: <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> minding communion with that God they in<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> which is the life of prayer. What heart
+<pb n="8" facs="tcp:40742:9"/>doth not weep to remember, how in any time of di<g ref="char:EOLhyphen"/>ſtreſs, that <hi>heap of confuſion</hi> muſt be ſearcht into, to finde out words to expreſs the condition of the di<g ref="char:EOLhyphen"/>ſtreſſed? And if none pertinent could be found, then ſome impertinency muſt ſerve: uſing prayer meer<g ref="char:EOLhyphen"/>ly as a ſpell or a charm to drive away ſome eminent evil. Such calling on God might well deſerve that Inſcription, which <hi>Paul</hi> found on the Altar at <hi>Athens,</hi>
+                  <note n="(p)" place="margin">Act. 17.23</note> 
+                  <hi>To the unknown God</hi>
+                  <note n="(q)" place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> For what difference is there betwixt worſhipping an unknown God, and worſhipping the true God (in name only, but) under falſe notions? ſave this, that they retain the name, but are ſtrangers to that nature with which its clo<g ref="char:EOLhyphen"/>thed. The Stoicks were more regular in their judge<g ref="char:EOLhyphen"/>ments, touching their falſe Gods, then ſuch men are in their practiſes towards the true God. For that they held it,<note n="(r)" place="margin">Epict. En<g ref="char:EOLhyphen"/>chir. <hi>cap. 38.</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> 
+                  <hi>The chief thing in the worſhip of their Gods, to have true apprehenſions of them.</hi>
+               </item>
+               <item>3. There is a prayer of blood and cruelty; when as men call on the name of God, with their hands full of blood, having peace and ſweetneſs in their words, but rapine, and a devouring ſpirit lodgeth within. Such cryes which call God to aide, only to effect the re<g ref="char:EOLhyphen"/>venge of malitious hearts, prove fruitleſs, for he will not hear them. God ſpeaketh it with an emphaſis, <hi>Iſa.</hi> 1.15. <hi>When ye make</hi> many <hi>prayers, I will not hear: your hands are full of blood.</hi> 'Twere well if this age could not give ample teſtimonies to this: when as the <hi>Cove<g ref="char:EOLhyphen"/>nant</hi> and <hi>
+                     <g ref="char:V">Ʋ</g>niformity</hi> muſt be made the cloak; <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <hi>Faſting</hi> and <hi>Prayers</hi> had in ſecret, pretended for <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> conciling of <hi>Brethren,</hi> whilſt the woundings <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> and the deſtruction of the <hi>Common-wealth</hi> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+                  <pb n="9" facs="tcp:40742:9"/>bottom. Theſe cryes God hath not heard, ſo as to favour them with acceptance; but he hath given the blood-thirſty blood to drink. To Ages of Ages let his name be praiſed therefore; and let all the friends of <hi>Zion,</hi> ſay, <hi>Amen.</hi>
+               </item>
+            </list>
+            <p>Theſe three ſorts of invocation being excluded, I ſhall preſent you with three things, which ſpeak out the very heart of that which is true calling upon God.</p>
+            <list>
+               <item>1. The firſt is, the fervent pouring out of the ſoul to God, mixt with<note n="(ſ)" place="margin">Vera invo<g ref="char:EOLhyphen"/>catio non niſi in fide fundata eſt. <hi>Calvi.</hi>
+                  </note> 
+                  <hi>Faith</hi> and <hi>underſtanding,</hi> as to one that is able and willing to relieve. God doth not always give a particular Faith, as to the thing we beg; neither is it ſafe to be peremptory in determining the pleaſure of God, in relation to the particulars of our requeſts: but the Faith of Chriſtians, in Prayer, hath this for its object, God ready to accompliſh the de<g ref="char:EOLhyphen"/>ſire of their ſouls, as far as they are ſubſervient to that high End, his own glory. Now then, when thoſe Oratorical <hi>ſighs and groans,</hi> are ſent Heaven<g ref="char:EOLhyphen"/>wards in full vollies, and theſe after God as a tender Father,<note n="(t)" place="margin">Is demum verè nomen Do<g ref="char:EOLhyphen"/>mini invocat, qui per fidem in Chriſto rena<g ref="char:EOLhyphen"/>tus, factus fi<g ref="char:EOLhyphen"/>lius Dei, accepto ſpiritu, per quem clamamus Abba pater, auxilium Dei in adverſis im<g ref="char:EOLhyphen"/>plorat. <hi>Bullin. in Act. Apoſt. cap. 2. ver. 21.</hi>
+                  </note> with a holy boldneſs, and child-like fami<g ref="char:EOLhyphen"/>liarity on the Chriſtians part; this is after the due manner to call upon his name. <hi>Jacob</hi> can no more let God go without a bleſſing, then a poor childe can the hand of his father, when he is ready to ſink. <hi>Heze<g ref="char:EOLhyphen"/>kiah</hi> in the day of his ſtraits runneth to the boſom of God, and before him ſpreadeth his caſe: much like an injur'd ſon before his tender father. I doubt not but the name of God was lately thus called upon, by <gap reason="illegible" resp="#PDCC" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>ſands of waiting ſouls in this Nation: among <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> many were favoured with a particular Faith, as <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>ermined iſſue: but all, with a ſweet <hi>hope</hi>
+                  <pb n="10" facs="tcp:40742:10"/>(the Anchor of the ſoul) joyned with this confidence that the end of the Lord ſhould be good.</item>
+               <item>2. With this is joyn'd a naked dependance on the Lord, as one whoſe power alone, is able to accom<g ref="char:EOLhyphen"/>pliſh the deſires of our ſouls. By naked dependance, I exclude not the uſe of means; but do intend, a looking to God by Faith as the prime agent effecting his pleaſure by, and through, creatures. When as (in the day of our ſtraits) our hearts are moſt enlarged with deſire; and our heads and hands moſt active for the working our deliverance: then to keep our eyes fixed on him as the original productive cauſe of our expected ſalvation: and to lay our higheſt hopes on him as giving life and vigour to all ſecond cauſes. <hi>Ie<g ref="char:EOLhyphen"/>hoſhaphat</hi> (upon the approach of his potent adverſa<g ref="char:EOLhyphen"/>ries) keepeth his ſword in his hand, but had his<note n="(u)" place="margin">2 Chr. 20.12.</note> 
+                  <hi>eye</hi> on his God.<note n="(w)" place="margin">1 Sam. 17.4.40.45.</note> 
+                  <hi>David</hi> advancing to diſpute <hi>Iſraels</hi> quarrel with <hi>the champion of the Philiſtines,</hi> took his <hi>ſmooth ſtones in his ſcrip, and his ſling in his hand;</hi> but his heart leaned on the <hi>name of the Lord of hoſts.</hi> Then do we uſe our prayers and our armes to their proper end, when as we make them not our deliverers; but when, in the uſe of both, we have our reliance on the Lord.</item>
+               <item>3. To this may be added, a patient waiting upon God by Faith, for the accompliſhment of his pleaſure, which way ſoever made out. Which is done, when as, having poured forth our ſouls unto God with ſtrong cryes, and the Chariot-wheels of his po<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> and goodneſs ſeem to run ſlowly to our ſuccou<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> have our hearts ſtayed by patience, and kept <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> precipitant excurſions: When we forbear (<gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+                  <pb n="11" facs="tcp:40742:10"/>of our diſtreſs) to prefix either the end or time, but do bear about in our breſts this reſolution, to comply with the product of our Fathers pleaſure, what ere it be. To ſpeak all in a word; then are we to be recko<g ref="char:EOLhyphen"/>ned among the number of thoſe that do truly <hi>call upon the name of God:</hi> when as having with fervency and a holy boldneſs, ſpred our caſe before him (in the midſt of our clouds and darkneſs) we retain this ſweet complacency of ſpirit in the cloſe of all: as to be able to ſay, <hi>Father, not my will, but thy will be done.</hi>
+               </item>
+            </list>
+            <p>I ſhall only adde two words by way of Corollary from what hath been ſaid of this firſt part, and ſo paſs to the ſecond part of the Text.</p>
+            <list>
+               <item>1. They that are deareſt in the eyes of the Lord, have their <hi>dayes of trouble.</hi> They to whom his ear is open, and his hand ready to help, have them: from whence the Corollary doth naturally follow. I ſhall not ſpend time to bring a candle to the Sun, in making a repetition of thoſe many examples with which the Scripture doth abound, to prove an aſſertion ſo clear. If we look back and conſult with the lives of all the holy Patriarchs and Prophets from <hi>Adam</hi> to <hi>Chriſt,</hi> and with the lives of all the Saints from him to the laſt Apoſtle, we ſhall finde none of them that went down to their graves, who in their paſſage, met not with ſome days of darkneſs and diſtreſs. The conſi<g ref="char:EOLhyphen"/>deration of which ſhould ſtay our hearts under the <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>eſt of our preſſures: knowing, that no new thing <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>ened unto us, more then what was the portion <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> many thouſands of precious ones which <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> heaven before us.</item>
+               <pb n="12" facs="tcp:40742:11"/>
+               <item>2. Secondly, the ſureſt application that we can make in the day of trouble, is unto God. When our vain hearts are deceived into confidence on any thing on this ſide him, we do but ſeek the living among the dead, and waters of refreſhing in empty pits.</item>
+            </list>
+            <p>And ſo I have done with the firſt part of the Text, <hi>viz.</hi> The duty, together with the circumſtance of time.</p>
+            <p>The ſecond part that followeth in order to be ſpo<g ref="char:EOLhyphen"/>ken to, is the engagement of grace. <hi>I</hi>
+               <note n="(x)" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> Te eruam.</note> 
+               <hi>will deliver thee.</hi> Which word is applyed as well to the quitting of the minde from its ſtraits, as to the deliverance of the outward man.<note n="(y)" place="margin">Pſal. 6.4.</note> 
+               <hi>David</hi> under the apprehenſions of divine diſpleaſure, cryeth unto God, that he would <hi>deliver</hi>
+               <note n="(z)" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> his <hi>ſoul</hi> from that heavy yoke.</p>
+            <p>Behold here the gratious readineſs of God to com<g ref="char:EOLhyphen"/>ply with the requeſts of Faith of his diſtreſſed people! It's but cry, and be heard; beg and obtain. No di<g ref="char:EOLhyphen"/>ſtreſſed childe, may with more boldneſs and confi<g ref="char:EOLhyphen"/>dence make application to his dear father, then Chri<g ref="char:EOLhyphen"/>ſtians in the day of their ſtraits may unto their God. There are gods many, and lords many, but there is none like to the God of <hi>Iſrael,</hi> whoſe heart and hands are always wide open for the ſatisfying the de<g ref="char:EOLhyphen"/>ſires of his poor little ones. The poor Prieſts of <hi>Baal</hi> may cry long and loud, and (like ſeduced wor<g ref="char:EOLhyphen"/>ſhippers) make the drawing of their own blood an argument to perſwade their ſpiritleſs Idol to appear for them; but he hath neither an ear to hear, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> hand to help, nor a heart to pitty them. But <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> God of <hi>Iſrael</hi> are all theſe, <hi>I will deliver th<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> is as much as if God ſhould have ſaid in <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb n="13" facs="tcp:40742:11"/>thus much; In the day of your darkneſs and diſtreſs, let not your vain hearts ſuggeſt to you thoughts of diffidence, or deſpair; know, that he that made you, and redeemed you, hath not left you as <hi>Orphans</hi> in the midſt of cruel men: know, that when the ears and hearts of men are cloſed againſt you here <hi>on earth;</hi> yet even then, you have more left you then the whole world can give you, <hi>viZ.</hi> a God <hi>in heaven</hi> who will plead your righteous cauſe. And as much as you ex<g ref="char:EOLhyphen"/>pect the return of the Sun above your Horizon, after a few hours ſetting: ſo confidently may you expect the drawing forth of my power, and my love, for the revenging of all your wrongs, vvhen ever you make your appeal unto me.</p>
+            <p>
+               <hi>Object.</hi> But here we meet with an Objection, which (at firſt view) does ſeem much to overſhadow the glory of this truth; which is, that we do often ſee the ſtrong<g ref="char:EOLhyphen"/>eſt cryes of Chriſtians go unheard; and the moſt fervent breathings of their hearts, go unaccompliſh<g ref="char:EOLhyphen"/>ed; Were there not many prayers put up for the ſa<g ref="char:EOLhyphen"/>ving of <hi>Briſtol,</hi> when it was firſt taken, all which proved fruitleſs?</p>
+            <p>
+               <hi>Anſw.</hi> To which I ſhall give anſwer in theſe two words.</p>
+            <list>
+               <item>1. It ſpeaketh as great grace from heaven, to lend us ſupport under the trouble, as to deliver us from it. And on our parts we have properly a deliverance, when as (though God break not our bonds, yet) he doth <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> upon our ſouls with ſuch bright rayes of his <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> preſence and ſpirit, as do make our hearts <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ich truth is bottom'd upon this Principle, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> and foundation of all trouble, is the ab<g ref="char:EOLhyphen"/>ſence
+<pb n="14" facs="tcp:40742:12"/>of God; ſo that to have the glory of his pre<g ref="char:EOLhyphen"/>ſence is deliverance from trouble. We have a moſt clear demonſtration of this in Chriſt; of whom the Author to the Hebrews<note n="(a)" place="margin">Heb. 5.7.</note> ſaith, <hi>That when he had of<g ref="char:EOLhyphen"/>fered up prayers and ſupplications with ſtrong crying and tears, unto him that was able to ſave him from death, he was</hi> heard <hi>in that he feared.</hi> Now how can it be ſaid, that he was <hi>heard in that he feared,</hi> which was death, ſince he did not eſcape it? If Chriſt drank of the cup of death, how was he heard in being ſaved from it? The Evangeliſt<note n="(b)" place="margin">Luk. 22.43</note> 
+                  <hi>Luke</hi> doth unty this knot for us, who ſaith, that (upon his prayers) that that cup which was provided for him to drink, might paſs from him, <hi>There appeared an Angel unto him from heaven ſtrengthening him.</hi> So that, Gods ſending an Angel for the ſuccour of Chriſt under his Agony, is inter<g ref="char:EOLhyphen"/>preted by the Author to the Hebrews, to be as much a hearing of him in the very letter of his prayer, as if he had delivered him from it.</item>
+               <item>2. Secondly, Gods wiſe deferring the accompliſh<g ref="char:EOLhyphen"/>ment of the deſires of his People untill his own due time, cannot be interpreted his refuſing to hear them. Deliverance is then ſufficiently ſoon, when as it's in Gods time. And thus we do now enjoy the things we beg'd for theſe ten years paſt. And our eyes do at this day behold the glorious accompliſhment of thoſe many prayers that ſeemed to be buried in oblivion.</item>
+            </list>
+            <p>But to return to the buſineſs of the day. A gre<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> piece of which (if I miſtake not) is to take a ſ<gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> review of the glory of that Salvation w<gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> heaven hath encompaſſed us. For ſuitable <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb n="15" facs="tcp:40742:12"/>we have of the greatneſs of our Deliverance, will be the truth and fervency of our Praiſes. Praiſe is a ſacrifice offered up to God, by the affections, which ſuppoſeth them to be ſet on work by the judgement; which being apprehenſive of large receits of grace, prompteth the affections to make equal returns of glory. No apprehenſion of good received, no praiſe: narrow apprehenſions of great Deliverances, weak Praiſes. Every man and woman in this place, whoſe judgements do not give in this verdict to their affecti<g ref="char:EOLhyphen"/>ons, That God hath declared rich grace in the ſal<g ref="char:EOLhyphen"/>vation he hath wrought for <hi>England,</hi> but do eſteem it rather a plague then a priviledge, that (after ſo ma<g ref="char:EOLhyphen"/>ny ſore conflicts) he gave the day as he did: I ſay all ſuch do ſtand only as cyphers, among the number of thoſe that this day make melody in their hearts to the moſt High.</p>
+            <p>Therefore that our hearts may be the better tuned to offer up our ſacrifice of ſpiritual praiſes unto God: I ſhall endeavour to ſet before you, the glory of our deliverance, by ſpeaking to two things.</p>
+            <list>
+               <item>1. I ſhall ſpread before you ſome of the capital miſchiefs whence God hath delivered us.</item>
+               <item>2. I ſhall ſpeak of the way or manner <hi>how</hi> he hath delivered us.</item>
+            </list>
+            <p>And here I ſhall not confine my ſelf, to ſpeak only of the glory of our Deliverance, in relation to the ſignal mercy given in at <hi>Worceſter;</hi> but ſhall extend <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> diſcourſe to all that which God hath ſaved us <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> the whole ſeries of our Deliverances for ſome <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>till that laſt wrought there, which the <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> hath ſet as a crown upon all the former.
+<pb n="16" facs="tcp:40742:13"/>Therefore if any man ask me, What God hath deli<g ref="char:EOLhyphen"/>vered us from? I anſwer firſt in general, He hath delivered us from the devouring rage of mercileſs cruelty: he hath pluckt us out of the jawes of that ravenous malice, which was not to be ſatiated, but by the deſtruction of the ſoul, as well as the outward man. Our blood and our lives are ſaved from being trodden down as mire in the ſtreets, by the feet of the cruel. We with our wives, our little ones, our friends, and deareſt relations, are alive this day before the Lord, as legible demonſtrations, and living monu<g ref="char:EOLhyphen"/>ments, of our ſo great Salvation.</p>
+            <p>To undertake to enumerate all the particu<g ref="char:EOLhyphen"/>lar pieces of this glorious lump of our Delive<g ref="char:EOLhyphen"/>rances, would be a work, which would make me too great a treſpaſſer, as well upon my own ſtrength, as your patience. I ſhall therefore ſpeak only to three principal comprehenſive miſchiefs, whence the hand of heaven hath gratiouſly delivered us.</p>
+            <p n="1">1. We are (through unſpeakable mercy) in a great meaſure delivered from that yoke, which was like<g ref="char:EOLhyphen"/>ly to have continued upon our necks, through that inevitable ruine that was coming upon our <hi>LAWS</hi> and <hi>LIBERTIES;</hi> our <hi>BIRTH-RIGHTS</hi> as we are men.</p>
+            <p>It's not difficult to quote that time, when as property was almoſt become a ſtranger in the Land: eſpecially among thoſe that had not the guard of greatneſs <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> keep it unviolated. There is none here can be ſo <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> a ſtranger to the publique concernments <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>Iſrael,</hi> as not to know, how through Bri<gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>tortion, and Male-adminiſtration of <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb n="15" facs="tcp:40742:13"/>hearts of the inhabitants began to bleed and groan. It's more then ſad to remember that time, when as the <hi>juſtice</hi> of a mans cauſe, was meaſured by the ſtrength of his <hi>purſe:</hi> and he ſhould not miſs of receiving the moſt favourable ſentence, who was able to return the greateſt <hi>reward.</hi>
+            </p>
+            <p>
+               <hi>Object.</hi> But me thinks, I hear ſome asking me; Are not the relicts of injuſtice yet remaining in the midſt of us? Do the ſtreams of righteouſneſs run ſo pure, that there is no tincture of defilement mixed with them? Are the arms of the oppreſſor ſo broken, that there are no cryes of the oppreſſed in the Land?</p>
+            <p>
+               <hi>Anſw.</hi> 1. To this I anſwer firſt, <hi>Rome</hi> was never built in a day; neither is a houſe finiſhed as ſoon as the foundation is laid. Was ever any child a monſter to his father, becauſe not a <hi>man</hi> the firſt day it was born? It doth ſufficiently rejoyce a tender mother (after her bitter travel) that her childe is born per<g ref="char:EOLhyphen"/>fect, as to the parts of a man; ſhe doth not renue her ſorrow, becauſe ſhe doth not finde it born with <hi>ſtrength, eloquence, policy,</hi> and thoſe other <hi>endowments</hi> which are the Concomitants of <hi>riper years:</hi> ſhe is well content to have thoſe only in hope, and await the perfection of them as the work of time.</p>
+            <p>And ſhall we deny that to ſo vaſt a body as a <hi>Common-wealth,</hi> which we are content to allow to thoſe bodies of leſſer magnitude?</p>
+            <p n="2">2. Secondly, Let us bleſs God for what he hath <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> done in beginning, and wait his pleaſure for <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>eating of this piece of our Deliverance. <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ſearch, that errour will be found too <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>, which maketh men to have their
+<pb n="16" facs="tcp:40742:14"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="15" facs="tcp:40742:14"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="18" facs="tcp:40742:15"/>mouths fill'd with more complaints (looking to what they have not) then their hearts with true thankful<g ref="char:EOLhyphen"/>neſs for what they have. It's ſtoried by <hi>Plutarch</hi>
+               <note n="(c)" place="margin">Plutar. in vit. Lycur.</note> concerning <hi>Lycurgus,</hi> that when he firſt eſtabliſhed his new Common-wealth in <hi>Sparta,</hi> for the preven<g ref="char:EOLhyphen"/>tion of injuſtice and oppreſſion, he made theſe two Decrees.</p>
+            <list>
+               <item>1. That no man ſhould make uſe, either of ſilver or gold.</item>
+               <item>2. That none of his Laws ſhould be written upon Tables.</item>
+            </list>
+            <p>By the firſt he intended the extirpation of covetouſ<g ref="char:EOLhyphen"/>neſs; and conſequently the removal of oppreſſion. By the ſecond he intended, that every man ſhould have his Laws written in his breſt, which mixed with the Law of love, and good will, he thought to be of ſufficient force to make men act juſtly. I ſhall only make this ſhort application of it. That, we may not expect to have the Common-wealth free from every tincture and ſpot of injuſtice, untill it ſhall pleaſe God to accompliſh theſe two great works, upon all mens hearts. Firſt, that by the power of his ſpirit, he do cruſe them not to ceaſe to uſe, but to covet <hi>ſilver and gold.</hi> Then ſhall it be a glorious Common<g ref="char:EOLhyphen"/>wealth indeed: when (as <hi>Lycurgus</hi> did baniſh the uſe of money out of mens houſes, ſo) God ſhall ba<g ref="char:EOLhyphen"/>niſh covetouſneſs out of mens hearts. Secondly, that he do write that noble Law of Spiritual love upon the tables of their hearts, whereby they <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> light to act righteouſly from the love <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ouſneſs.</p>
+            <p>But though untill the effecting of <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb n="19" facs="tcp:40742:15"/>works in the hearts of men, we may not expect to have our Common-wealth ſpotleſs, as to theſe defile<g ref="char:EOLhyphen"/>ments: yet I would adde (and I hope without offence to any that are honeſt of the long Robe) that I doubt not but many among us ſhall live to ſee that time, when as thoſe cunning Cooks of the Laws, which have for many years diſht out ſo many of the peoples priviledges to them (with the poyſonous ſauce of their own interpretation) as might ſerve their own ends, will by the power of the Goſpel or the Sword, be made more juſt, or be cut much lower.</p>
+            <p n="2">2. God hath delivered his poor People in this Na<g ref="char:EOLhyphen"/>tion from the heart-wounding taunts and reproaches of their blaſpheming adverſaries: Who can expreſs (beſides thoſe that feel it) how deep it ſtriketh into the tender hearts of ingenuous Chriſtians, to hear the blaſphemous reproaches of their triumphing ene<g ref="char:EOLhyphen"/>mies in the day of their diſtreſs? Doubtleſs that Ba<g ref="char:EOLhyphen"/>byloniſh taunt, ſunk into the Iſraelites grieved ſouls, as deep as their bonds:<note n="(d)" place="margin">Pſa. 137.3</note> when as <hi>they that waſted</hi> them, <hi>required mirth of</hi> them, <hi>ſaying</hi> (in ſcorn) <hi>ſing us one of the ſongs of</hi> Zion. <hi>David</hi> profeſſeth, that his morſels were embittered to him, and all his com<g ref="char:EOLhyphen"/>forts beſmeared with gall, whilſt his ears were pierced by his enemies continual repetition of that cutting reproach,<note n="(e)" place="margin">Pſal. 42.3.</note> 
+               <hi>Where is thy God?</hi>
+            </p>
+            <p>Theſe Irons God hath prevented from entring in<g ref="char:EOLhyphen"/>to our ſouls. He hath not given us up as a prey to the <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> of the cruel; that we ſhould be caſt into <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>nd Dungeons, to be made the objects of <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> If they ſhould call to us for <hi>one of the</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> can chearfully ſing it with melody in
+<pb n="20" facs="tcp:40742:16"/>our hearts, unto the Saviour of <hi>Zion.</hi> If they ask us, <hi>Where is our God?</hi> we can anſwer them with joy and boldneſs, that our God is the living God, who ſcat<g ref="char:EOLhyphen"/>tered them in his diſpleaſure at <hi>Marſton-Moore;</hi> whoſe power brake them in pieces at <hi>Naſeby field;</hi> who ſmote their great ones in <hi>Kent;</hi> who by a handfull put thouſands to flight at St. <hi>Faggons;</hi> the ſtroke of whoſe terrour they felt in the <hi>North:</hi> whoſe ſtrength made the weak ſtrong, to ſtain the glory of their pride at <hi>Dunbar:</hi> whoſe hand was never drawn back, but was ſtretcht out ſtill, untill he had put on the top-ſtone of our deliverance at <hi>Worceſter.</hi>
+            </p>
+            <p n="3">3. Thirdly, God hath delivered his People in this Nation, from thoſe yokes which are heavier then all; <hi>viz.</hi> Thoſe that were preparing for, and in part laid upon their conſciences. For although it be true, that thoſe things which the Stoicks call<note n="(f)" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>Things in our power</hi> (as the actings and negotiations of the ſoul) cannot be taken from us, nor ſuffer violence from any thing without; and conſequently none can ſpoil us of the Liberty of our conſciences: yet foraſmuch as thoſe tranſient acts which relate to the worſhip of God, may be hindred from without, we may be thence ſaid to be ſpoiled of the free exerciſe of our conſciences. Now in this conſiſteth a great piece of the glory of our Deliverance.</p>
+            <p>They are not many years ſince the wills of ſilly men, were become Dictators to the Faith of Chri<g ref="char:EOLhyphen"/>ſtians. So that to have been in ones Faith, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ſtep beyond the teachings of a Blind-guide <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> over-holy. How was the life of religion <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>ſiſt in complying with the fond inve<gap reason="illegible" resp="#PDCC" extent="5 letters">
+                  <desc>•••••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb n="21" facs="tcp:40742:16"/>and even ſwallowed up with the inroad of created Ceremonies? How were needleſs burdens multiply<g ref="char:EOLhyphen"/>ed upon the conſciences of poor Chriſtians? So that in things Spiritual as well as Civil, it was hard to tell, which lay heavyeſt, the <hi>Mitre</hi> or the <hi>Crown:</hi> although its more then probable, that the Crown might have been eaſier borne, had not the Mitre ſtood ſo near it. To be righteous beyond a mans neighbour, how Heterodox was it? and to be holyer then the will of a proud Prelate allowed, not leſs then grand Hereſie. Nay, whether were we ſinking? when as the very external duties (the carcaſe) of Religion became a reproach to the exerciſer? Are there none here, that can give teſtimony of that time, when as it was an abomination to ſome men, to hear but a Pſalm ſung, or a Chapter read in the Family? So that (as much as in them lay) they ſtudied, and attempted to baniſh the loweſt appearances of God from among men. Are there more then twelve years paſt over our heads, ſince Chriſtians would have reckoned it among their greateſt Priviledges, to have had but liberty to have gone but one days journey out of <hi>Egypt,</hi> to worſhip their God, without the prophane mixtures of ſottiſh Ceremonies? Would it not have been to them as life from the dead, could they at all times have freely, and without interruption met together (though but in corners) mutually to declare among themſelves <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat God had done for their ſouls, and to pour out <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>arts to him in Prayer?</p>
+            <p>
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hen (Chriſtians) the glory of your De<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> all theſe bonds! God hath not been <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ording to the waitings of your ſouls;
+<pb n="22" facs="tcp:40742:17"/>but he hath out-done both your hopes, and your thoughts. Thoſe glorious Priviledges which (lying under vaſt heaps of improbabilities, ever to be brought forth in their true luſtre) ye ſcarce durſt beg for your ſelves; lo, even them hath the hand of grace caſt into your boſoms. You have now all the polluted rags of Ceremonies pull'd off from the face of Wor<g ref="char:EOLhyphen"/>ſhip. Ye now know no <hi>Biſhop of your ſouls,</hi> beſides him who is your God, and your Redeemer. You need not now privily flie to corners to ſpeak of God, or exerciſe the freedom of your conſciences. You are not now conſtrain'd to leave the Land of your nativi<g ref="char:EOLhyphen"/>ty, that you might worſhip God without the mixtures of mens inventions. And which is the life of your Li<g ref="char:EOLhyphen"/>berty (ſee a wonder of Providence!) your Rulers are become your Patrons, ſo that you may be as holy as you can, as Religious as you can. What then remain<g ref="char:EOLhyphen"/>eth, but that we wait in our ſouls for that time: when as he that hath given Liberty, will alſo give us hearts to walk more entirely with himſelf?</p>
+            <p>And ſo much touching the Capital miſchiefs we are delivered from.</p>
+            <p n="2">2. The ſecond thing that ſpeaketh the glory of our Deliverance, is, the <hi>manner how</hi> we have been deliver<g ref="char:EOLhyphen"/>ed; and of this, only theſe three words.</p>
+            <list>
+               <item>1. We have been delivered, not by humane power or policy, but by the alone arm of our God. His wiſ<g ref="char:EOLhyphen"/>dom hath ſo ordered it, that his naked power hath been clearly ſeen to do all, that there might <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> ſacrificing unto men. It is he that hath <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> this Nation, <hi>in the greatneſs of his</hi> ow<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> love, for theſe ten years paſt; an<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+                  <pb n="23" facs="tcp:40742:17"/>ſharp throws) hath at length brought forth that glo<g ref="char:EOLhyphen"/>rious Birth, which our eyes this day behold. Leſt the vain heart of arrogant man ſhould aſſume that glory to himſelf, which is due only to his Redeemer; it pleaſed God to draw a thick cloud over all ſleſhly power and wiſdom, that his own arm might be ſeen to bring ſalvation to us.</item>
+               <item>2. He hath delivered us, having firſt often brought us even to the pit of deſtruction. The difficulties and ſtraits of the wilderneſs, did much commend the love of their guide, and the ſweetneſs of <hi>Canaan.</hi> In like manner, the glory of our Deliverance, and the goodneſs of our Deliverer are not a little commend<g ref="char:EOLhyphen"/>ed, in that he hath carried us through the flames for ſome years together, and yet ſuffered us not to be con<g ref="char:EOLhyphen"/>ſumed He hath often reduced us to that ſad ſtate, that ſalvation hath ſcarce been within our ken; but then, even in our loweſt condition, when the jaws of ruine have been cloſing upon us, he hath not failed to own as. I am ſure the year <hi>Fourty eight</hi> is freſh in your me<g ref="char:EOLhyphen"/>mories, when ſo many fires were kindled on all ſides of us, that there was no viſible way open, by which we might eſcape burning. A terrible fire in <hi>Kent,</hi> ano<g ref="char:EOLhyphen"/>ther in <hi>Wales,</hi> a third in the North; but through his grace all ſoon quenched, and we are delivered. How often have we been giving up the Buckler to the ene<g ref="char:EOLhyphen"/>my? and ſhould have been content to have had from <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> the tythe of that by Indenture, which we now <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> Free-holders, by Deed from none but God? <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> (which addeth not the leaſt luſtre to the <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> Deliverance) he hath delivered us, af<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> made to him, both by us and our
+<pb n="24" facs="tcp:40742:18"/>adverſaries. We and they are both filled with very ſtrong preſumptions of the juſtice of our Cauſe; yet neither ſo refractorily reſolute as to decline the Um<g ref="char:EOLhyphen"/>piredge of ſome third perſon: therefore (as to the meeteſt Judge) they appeal to Heaven, and ſo do we; and both put it upon this teſt (making this the ſignal of Heavens approbation) <hi>Victory</hi> given in to the moſt righteous cauſe. God (for ever bleſſed be his Name therefore) ſealeth to the juſtice of our Cauſe, in giving us the day through the greateſt diſ<g ref="char:EOLhyphen"/>advantages. But our adverſaries (as if Heaven had given an unrighteous verdict for us, or as if God had miſtaken himſelf in giving ſentence on our ſide, they) will appeal again. But neither paſſion, nor pre<g ref="char:EOLhyphen"/>tences can bribe the Almighty to comply with the unrighteous requeſts of unreaſonable men. And therefore, in the heat of his indignation, he doth again pronounce the ſame ſentence againſt them, making it legible in the eyes of all Nations, in Characters written with their own blood: in effect telling them, that his firſt Determination was righte<g ref="char:EOLhyphen"/>ous; and that they were peremptory beyond the due bounds of Creatures, in refuſing to be concluded by the unerring judgement of him: whom themſelves had choſen for their Judge.</item>
+            </list>
+            <p>And ſo I have done with the ſecond part of the Text (viz) the engagement of grace, <hi>I will deli<g ref="char:EOLhyphen"/>ver thee.</hi>
+            </p>
+            <p>Upon which followeth the improvement o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>liverance, which comes now to be ſpoke <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>And thou ſhalt glorifie me.</hi>
+            </p>
+            <p>If it be askt, What it is to glor<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb n="25" facs="tcp:40742:18"/>rit of God (the ſureſt Interpreter of his own mind) will reſolve us in the laſt verſe of this Fiftyeth Pſalm; <hi>Whoſo offereth praiſe, glorifieth me.</hi> All that Crea<g ref="char:EOLhyphen"/>tures can<note n="(g)" place="margin">Deum glo<g ref="char:EOLhyphen"/>rificamus, non addendo, ſed tantum decla<g ref="char:EOLhyphen"/>rando.</note> glorifie God by, is, by declaring only, not by adding; For in him dwelleth the full<g ref="char:EOLhyphen"/>neſs of all glory. Then do we give glory to him, when as with praiſe and thankfullneſs of heart, we live over the ſalvations of God. Salvation deſerveth praiſe. It is but a due debt payd to the grace of God, to look to him as our Saviour, with all thankfull ac<g ref="char:EOLhyphen"/>knowledgments of his goodneſs.</p>
+            <p>But before I ſpeak particularly to this part of the Text; peradventure there may be ſome here, who (being otherwiſe minded) cannot return praiſe for the late appearances of God, becauſe they eſteem them no mercies. To ſuch (if there be any preſent) I would ſpeak theſe three words in the ſpirit of meek<g ref="char:EOLhyphen"/>neſs.</p>
+            <p n="1">1. Its Pity that any member of Iſrael, ſhould ſit with a frozen ſpirit, under thoſe warm Sun-beams of grace, which at this day do ſhine forth, from the face of Iſraels keeper. Its more then to be lamented, that any ſhould be gnaſhing their teeth through anguiſh and diſcontent, for that, for which others are in their hearts ſinging the ſongs of Zions praiſes unto the Lord their Redeemer. I have more charity, then to paſs ſentence of perverſneſs upon ſuch ſpirits; but ſure I am that it cannot (when moſt favorably inter<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>d) be eſteemed other then deep blindneſs, that <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ſee the hand of God, when it is ſo glori<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> on the behalf of his People.</p>
+            <p>
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>not take in the whole bulk of our de<g ref="char:EOLhyphen"/>liverance
+<pb n="26" facs="tcp:40742:19"/>under the notion of a mercy, ſo as to re<g ref="char:EOLhyphen"/>turn praiſe therefore; yet, that in the work of this glorious Day, you may bear ſome part, give thanks for ſo much of it as you eſteem a mercy. If you eſteem it no mercy, becauſe Deliverance is given in by the hands of ſuch men; or if you can ſee no mercy in this that God hath by it opened a way to the flouriſhing of the Goſpel, Truth and Righteouſneſs; yet give thanks for the lower part of it (viz) that in the com<g ref="char:EOLhyphen"/>mon Deliverance, you have been ſaved from the vio<g ref="char:EOLhyphen"/>lence of men; that the noyſe of War is huſht, and is kept from comming into your borders.</p>
+            <p>
+               <hi>Plutarch</hi>
+               <note n="(h)" place="margin">Plutarch in vit. Cri. Marii.</note> reporteth of divine <hi>Plato,</hi> that when he came to dye, he gave thanks to God for theſe three things.</p>
+            <list>
+               <item>1. Firſt, That he had made him a Reaſonable crea<g ref="char:EOLhyphen"/>ture, and no brute beaſt.</item>
+               <item>2. Secondly, That he was a Greek, and no Bar<g ref="char:EOLhyphen"/>barous man.</item>
+               <item>3. Laſtly, That he was borne in the time of <hi>So<g ref="char:EOLhyphen"/>crates.</hi>
+               </item>
+            </list>
+            <p>I ſhall only apply it in a word thus.</p>
+            <p>Behold, the lower part of this mercy, containeth more glory in it then all <hi>Plato's</hi> layd together. God hath not only made you men; but, he hath alſo put a <hi>price</hi> into your <hi>hands,</hi> to <hi>get</hi> the <hi>wiſdom</hi> of Chriſti<g ref="char:EOLhyphen"/>ans. To live under the Sun-ſhine of the Goſpel, is much more then to be borne a Greek. He eſteemed it a great Priviledg that he was born in the time o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>crates;</hi> But (which is ten thouſand times <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> you live in thoſe dayes wherein <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> doth raign and rule as Lord and King <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <pb n="27" facs="tcp:40742:19"/>
+            <p n="3">3. In the great things that have been of late accom<g ref="char:EOLhyphen"/>pliſhed, ſtrive to mind God more, and Man leſs. E<g ref="char:EOLhyphen"/>ſteem not the great changes that have fallen out upon the Nation, as effected ſo much by the wills of men as the hand of God; and to be, not the birth of mens pleaſures, but the fruits of his purpoſes: and ſuch as have been brought to paſſe in much grace and favour. Why elſe ſhould he continue to give his pre<g ref="char:EOLhyphen"/>ſence in ſuch conſtant ſucceſſe, to thoſe that have ſe<g ref="char:EOLhyphen"/>riouſly waited on him, by whom (as Inſtruments) theſe Changes have been wrought? It's true, that <hi>naked</hi> ſucceſſe, is but a probable Argument at beſt to prove Heavens approbation of that Cauſe to which it's given. But, being cloathed with ſo many con<g ref="char:EOLhyphen"/>ſiderable Circumſtances as that hath been (of which we now ſpeak) it doth amount to little leſs then a Demonſtration. For, why God ſhould continue to give ſuch an unintermitted ſeries of ſucceſſes, to a com<g ref="char:EOLhyphen"/>pany of People <hi>waiting upon him by faith and prayer;</hi> and that, after <hi>Solemn Appeals</hi> made to him; toge<g ref="char:EOLhyphen"/>ther with the offering up of their humble requeſts to him, that he would manifeſt his pleaſure, both con<g ref="char:EOLhyphen"/>cerning them and their cauſe, by the <hi>ſucceſs;</hi> I ſay, why God ſhould thus comply both with their Pray<g ref="char:EOLhyphen"/>ers and their Enterpriſes, and not do it in <hi>grace and fa<g ref="char:EOLhyphen"/>vour,</hi> is to me as yet a Riddle, not to be unfolded. I believe we may (without Preſumption) challenge the moſt gray headed Hiſtorian, to produce a Para<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> What doth God intend by all thoſe ſignal favors <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> which he hath of late encompaſſed his People, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ere the putting of his Seal to thoſe things <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> brought forth, in relation to the eſta<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>New-born-Commonwealth?</hi>
+            </p>
+            <pb n="28" facs="tcp:40742:20"/>
+            <p>But to return to our duty; Let us all that have called upon God in the day of our trouble, and have taſted of his ſalvation, give all glory to him in our hearts.</p>
+            <p>If you ask me how we ſhall do it? I anſwer in ge<g ref="char:EOLhyphen"/>neral, thus. We ſhall diſcharge our ſelves of this du<g ref="char:EOLhyphen"/>ty by offering up our ſelves to God entirely, in all ho<g ref="char:EOLhyphen"/>lineſs of minde and converſation. Then are we truly ſaved, to the glory of God, when as we are ſaved into nearer fellowſhip and communion with himſelf. We called upon him in the day of our diſtreſs, and he delivered us; let us remember what we are, &amp; pay our vows to the moſt High. Let us call to mind, what great things we did reſolve upon in the day of our ſtraits, if God would deliver us but <hi>this once.</hi> Now that he hath heard our cryes, let us not be ſlack in perfor<g ref="char:EOLhyphen"/>mance. Far let it be from us, <hi>now</hi> to ſink lower into the world, ſince his goodneſs hath kept us from ſink<g ref="char:EOLhyphen"/>ing into deſolation. Let not the goodneſs of God in ſaving us, put us at a greater diſtance from him. Let us never give occaſion to God (through our ingratitude) to ſay of us: Well, in the day of your trouble I heard from you, and I had a lodging and a place of reſidence in your hearts and thoughts; but now I am become as a ſtranger to you; ye hung cloſe to me in the time when you needed my help; but now your ſouls do cleave to other lovers beſides me. Let not his looſing the bonds of our ſervitude, ſet us looſe in our hearts from himſelf. For then our Deliverance will prove our Plague, rather then our Privil<gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Ten thouſand times better had it been that <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> of our enemies had lain upon our necks all <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> our lives (our hearts enjoying ſweet <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> him) then, that his breaking our <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb n="29" facs="tcp:40742:20"/>at a greater diſtance from him. For who is there that will not ſay, that fellowſhip with God in bonds, is much to be preferrd before the liberty of the outward man, with the loſs of his preſence? The preſence of God (compleatly enjoyed) maketh up the formality of heaven; ſo that, if by gaining external deliver<g ref="char:EOLhyphen"/>ance we loſe that, what do we do other then make a fooliſh exchange of heaven for earth? of gold for lead? of the glory of the Creator (bleſſed for ever) for the poor, unſatisfying ſweetneſs of dying creatures?</p>
+            <p>Thus much of the duty in general. More particu<g ref="char:EOLhyphen"/>larly I would offer two things to you, by which you may give glory to God.</p>
+            <list>
+               <item>1. Firſt, Let every man (according to the particular relation in which he ſtandeth) ask himſelf, What great thing ſhall I do for God, the expreſſions of whoſe goodneſs have been ſo great to me?</item>
+               <item>2. Secondly, Let us all (upon a ſerious review of the matter and manner of our Deliverance) thus re<g ref="char:EOLhyphen"/>ſolve in our ſpirits, that we will make God our truſt in all our future ſtraits.</item>
+            </list>
+            <p>And firſt (in my diſcourſe of the firſt of theſe) I would direct my humble requeſt unto you, <hi>Right Wor<g ref="char:EOLhyphen"/>ſhipfull,</hi> which is, that you would ſtrive to do ſome great thing for God, by out-doing all your Predeceſ<g ref="char:EOLhyphen"/>ſors, even thoſe that have done moſt worthily. Con<g ref="char:EOLhyphen"/>tent not your ſelf to tread in their ſteps, but endeavor <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o excell them. If they have ſtudied to advance the <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>dom of <hi>Jeſus Chriſt</hi> in the City, do you much <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> If they have been a terrour to evil-doers, and <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> them that do well; do you be ſo much <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> have laboured to promote the <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>of godlineſs, and goodmen;</hi> let
+<pb n="30" facs="tcp:40742:21"/>it be your crown and your glory to endeavour it much more, that the Ages to come may have cogni<g ref="char:EOLhyphen"/>zance of this our year of Jubile, from the records of your actions; that when (upon the reading of them) it ſhall be asked, how it came to paſs that ſo many glori<g ref="char:EOLhyphen"/>ous things were effected in the year of ſuch a mans go<g ref="char:EOLhyphen"/>vernment? It may be anſwered, that they were done in teſtimony of thankfulneſs for a memorable Deliver<g ref="char:EOLhyphen"/>ance that was given to the whole Nation at <hi>Worceſter.</hi>
+            </p>
+            <p>Next, I would ſay to all, ſtrive to do ſome great thing for God. Let the conſideration of his loving kindneſs, be a prevailing motive with you to live to him in the paths of Holineſs and Righteouſneſs, all the days of your lives. Walk as a People ſaved by God: let your love to the Goſpel be more then ever, &amp; that both as it is the price of much precious blood, and alſo the gift of Divine love. Let your joy in God be purer then ever; let your eſtimation of the concernments of eternity be higher then ever, that all men may run and read the Salvation of God, in your Heavenly Con<g ref="char:EOLhyphen"/>verſations.</p>
+            <p n="2">2. Secondly, Reſolve to truſt God in all fu<g ref="char:EOLhyphen"/>ture ſtraits.</p>
+            <p>If at any time the Heavens ſhall grow dark over your heads, and miſchief and deſolation ſhall ſeem to be nigh unto you; if then your hearts begin to ſink, call to minde the memorable Sal<g ref="char:EOLhyphen"/>vation he wrought at <hi>Worceſter;</hi> and reſt confident that he, who (by his mighty power and preſ<gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> ſcattered great clouds there, is ſtill the ſame; <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> and willing to become a refuge from <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> to all thoſe that wait upon him by <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <p>I ſhall now winde up all, in <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Exhortation.</p>
+            <pb n="31" facs="tcp:40742:21"/>
+            <p>Let every man when he comes home, write this Motto upon his Door poſts, <hi>Saved by God;</hi> upon his Wife and Children, <hi>Saved by God;</hi> upon his Eſtate, <hi>Saved by God;</hi> upon his Liberty (both in relation to his Priviledges Civil and Religious) <hi>Preſerved by God.</hi> And then from all, let him thus ſeriouſly re<g ref="char:EOLhyphen"/>ſolve in his own breſt.</p>
+            <p>Is it indeed ſo, that I have not been conſtrained to leave my houſe as an habitation unto Strangers? hath the grace and wiſdom of Heaven ſo ordered it, that mine eyes have not ſeen my Wife and Little ones gi<g ref="char:EOLhyphen"/>ven up as a Prey to the teeth of the Cruell? hath the favour of my God been extended even to the keeping off the hand of the violent, from ſpoyling me of my Eſtate, ſo that I am not brought to a morſel of bread; but do ſit under my own vine, and eat the fruits of my own fig-tree? Am I at once ſaved both from the Captivity of my outward man, and the bondage of my inward: ſo that (being not ſubjected to the wills of prophane men) I may be as ſpiritual as I can, as heavenly as I can? I wil therefore offer up as a ſacrifice unto thee O God my Redeemer, my Wife, Children, Eſtate, Liberties, my All: and will make it the bu<g ref="char:EOLhyphen"/>ſineſs of my life, how I may bring glory to thee through all. The Records of thy matchleſs loving<g ref="char:EOLhyphen"/>kindneſs ſhall always remain ſo legible upon the Ta<g ref="char:EOLhyphen"/>ble of my heart; that, whilſt I live, nothing ſhall be by me eſteemed too dear to part with, or too difficult <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> be done or ſuffered for thy Names ſake, to whoſe <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> I owe every enjoyment which may be called <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> glorious.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
